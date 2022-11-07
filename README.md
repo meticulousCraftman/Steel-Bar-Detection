@@ -1,17 +1,24 @@
-# Steel-Bar-Detection
+# Steel Bar Detection
 Automatic steel bar counting using open computer vision.
 
-Follow the steps in sequential manner:
 
-step1:- install the prerequisite libraries
+## Installation
 
-    1. Run pip install -r requirements.txt (Python 2), or pip3 install -r requirements.txt (Python 3)
+1. Download and install `Python 3.7.8rc1-amd64.exe` from [here](https://www.python.org/ftp/python/3.7.8/python-3.7.8rc1-amd64.exe).
+2. Double click the installer file and open installation wizard. Make sure that `Add Python 3.7 to PATH` checkbox is ticked. Complete the installation.
+3. Open **Command Prompt** and goto the project folder.
+4. Install all the dependencies
+    ```
+    pip install -r requirements.txt
+    ```
+5. Run the project by executing the following command
+    ```
+    python steel.py
+    ```
+    Incase you wat to exit, press `q`
 
-step2:- Running the python program 
-    $ python steel.py
 
-step3:- to quit the program press 'q'
-
+## Description
 Some related images:
 
 CNN Distance Clustering
